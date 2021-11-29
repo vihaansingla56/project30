@@ -1,0 +1,218 @@
+body{
+    font-family: Sen, sans-serif;
+}
+
+.navbar {
+    padding: 12px !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.shadow {
+    box-shadow: 0 0 1rem rgb(0 0 0 / 15%) !important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav > li {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav .nav-link.active {
+    color: #000;
+    font-weight: 650 !important;
+}
+.login-button, .register-button {
+
+    border-radius: 25px !important;
+}
+.nav-link{
+    color:rgb(75, 70, 70) !important;
+}
+
+.section {
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    min-height: 550px;
+}
+.support-section{
+    margin-top:45px;
+}
+.section-heading{
+    width: 35%;
+    color: #f9f9f9;
+    font-size: 62px;
+    line-height: 1.2;
+    position:relative;
+    top:125px;
+    left:70px;
+}
+.section-paragraph {
+    width: 35%;
+    margin-bottom: 25px;
+    color: #f9f9f9;
+    font-size: 18px;
+    position:relative;
+    top:135px;
+    left:70px;
+}
+.py-6 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+.bg-gray-100{
+    background-color:#ffff !important;
+}
+.text-shadow >  .btn {
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-shadow > .btn {
+    display: inline-block;
+    line-height: 1.6;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.525rem 0.75rem;
+    font-size: .8rem;
+    border-radius: 0.4rem;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.subtitle {
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+img.bg-image {
+    font-family: 'object-fit: cover;';
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.dark-overlay, .gradient-overlay {
+    overflow: hidden;
+}
+.py-7 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+.overlay-content {
+    position: relative;
+    z-index: 20;
+}
+.text-shadow {
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+}
+
+.text-serif {
+    font-family: "Playfair Display",serif !important;
+}
+.fw-bold {
+    font-weight: 700 !important;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+
+
+/* cards */
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.bg-dark {
+    background-color: #212529!important;
+}
+.text-white {
+    color: #fff!important;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.overflow-hidden {
+    overflow: hidden!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+#hr1{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
